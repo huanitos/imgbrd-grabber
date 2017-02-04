@@ -14,17 +14,17 @@ matrix:
 addons:
   apt:
     sources:
-	  - sourceline: 'ppa:ubuntu-sdk-team/ppa'
-	  - sourceline: 'ppa:beineri/opt-qt571-trusty'
-	packages:
+      - sourceline: 'ppa:ubuntu-sdk-team/ppa'
+      - sourceline: 'ppa:beineri/opt-qt571-trusty'
+    packages:
       - qt5-qmake
-	  - qt5-default
-	  - qt57base
-	  - qt57declarative
-	  - qt57multimedia
-	  - qt57script
-	  - qt57tools
-	  - libpulse-dev
+      - qt5-default
+      - qt57base
+      - qt57declarative
+      - qt57multimedia
+      - qt57script
+      - qt57tools
+      - libpulse-dev
       - sshpass
 
 # Qt packages for OS X
